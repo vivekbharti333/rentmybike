@@ -16,7 +16,7 @@ public class OnlineBookingServices {
 	
 	
 	@Autowired
-	private OnlineBookingHelper onlineBookingHelper;
+	OnlineBookingHelper onlineBookingHelper;
 	
 	@Transactional
 	public BookingRequestObject vehicleBooking(Request<BookingRequestObject> bookingRequestObject)

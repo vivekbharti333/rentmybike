@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 public class BaseDao<T> {
 
-    @PersistenceContext(unitName = "xposDefault")
+    @PersistenceContext(unitName = "PERSISTENCE")
     protected EntityManager entityManager;
 
     public T persist(T obj) {

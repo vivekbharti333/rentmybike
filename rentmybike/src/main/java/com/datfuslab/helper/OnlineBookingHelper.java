@@ -9,6 +9,7 @@ import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.datfuslab.constant.Constant;
@@ -17,6 +18,7 @@ import com.datfuslab.entities.BookingDetails;
 import com.datfuslab.expections.BizException;
 import com.datfuslab.request.BookingRequestObject;
 
+@Component
 public class OnlineBookingHelper {
 	
 	@Autowired

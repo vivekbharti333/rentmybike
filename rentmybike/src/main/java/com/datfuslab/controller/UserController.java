@@ -19,7 +19,7 @@ public class UserController {
 	@Autowired
 	public HttpServletRequest request;
 	
-	@RequestMapping(value = "/testq")
+	@RequestMapping(value = "/")
 	public ModelAndView test(HttpServletResponse response) throws IOException {
 		System.out.println("Enter");
 		return new ModelAndView("index");
