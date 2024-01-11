@@ -1,0 +1,9 @@
+package com.datfuslab.enums;
+
+public enum RequestFor {
+	REGISTRATION,
+	LOGINVERIFICATION,
+	RESETPASSWORDVERIFICATION,
+	UPDATEUSERPROFILE,
+	
+}
